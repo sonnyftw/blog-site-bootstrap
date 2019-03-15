@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just A Simple Bootstrap Blog Site</title>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="blog-site-bootstrap.css">
+		<script
+  			src="http://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous">
+  		</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
+    <script>
+      var jpg = require "woodgrain.jpg"
+    </script>
+</head>
+<!-- JUMBOTRON -->
+<div class="container">
+<div class="jumbotron">
+  <h1>Just A Simple Bootstrap Blog Site</h1>
+  <p>Feel Free To Read My Posts</p>
+  <!-- <button class="btn btn-success btn-lg">Hi there</button> -->
+</div>
+<!-- JUMBOTRON -->
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">MYBLOG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!-- Button Moved*** --><!-- ****Button Moved -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Posts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"> Last Post: Dec 11</a>
+          <a class="dropdown-item" href="#"> Older Posts: Nov 23</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Coming Soon...</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Contact</a>
+      </li>
+    </ul>
+</div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- NAV -->
+<!-- Login --> 
+<form>
+  <div class="form-row align-items-center">
+      <div class="col-sm-4 my-3">
+        <label class="sr-only" for="inlineFormInputName">Name</label>
+        <input type="text" class="form-control" id="inlineFormInputName" placeholder="Email">
+      </div>
+      <div class="col-sm-4 my-3">
+        <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+      <div class="input-group">
+        <!-- <div class="input-group-prepend">
+        <div class="input-group-text">@</div>
+        </div> -->
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Password">
+      </div>
+      </div>
+        <div class="col-sm-4 my-3">
+          <div class="form-check">
+            <!-- <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+            <label class="form-check-label" for="autoSizingCheck2">
+              Remember me
+            </label> -->
+            <button type="submit" class="btn btn-primary" id="login">Log In</button>
+    </div>
+  </div>
+    <!-- <div class="col-sm-4 my-3"> -->
+    <!-- </div> -->
+  </div>
+</form>
+<!-- Login --> 
+<!-- BLOG  -->
+<body >
+ <div id="content"> 
+	<h3 class="date">November 23 2015</h3>
+
+	<h2>This Is My First Article</h2>
+
+<div class="post">
+<p>
+	<div class="quote">
+		Bacon ipsum dolor amet tongue beef tenderloin salami, pork loin hamburger turducken meatloaf. Shank alcatra ham hock shankle, pork bacon kevin pig porchetta biltong. Shoulder meatball venison pastrami tongue flank.
+	</div>
+</p>
+
+<p>
+	Pastrami porchetta kevin frankfurter, tail beef bresaola prosciutto brisket drumstick ball tip cupim filet mignon short ribs. Bresaola turkey ribeye pastrami brisket prosciutto meatball kielbasa turducken tongue pork belly. Turkey hamburger fatback ham hock prosciutto boudin. Fatback bresaola doner ham hock tenderloin pig rump.	
+</p>
+
+<p>
+	Buffalo tail bresaola, shankle meatloaf tongue ham hock. Flank tail kielbasa filet mignon beef frankfurter. Buffalo meatball short ribs brisket venison drumstick picanha sirloin pork chop beef ribs jowl tri-tip porchetta cow.
+</p>
+</div>
+<hr>
+<!-- *** -->
+
+	<h3 class="date">December 11 2015</h3>
+
+	<h2>This Is Another Article</h2>
+<div class="post">
+<p>
+	<div class="quote">
+		Kielbasa tongue salami, shoulder short ribs rump hamburger flank shank sausage capicola pork belly porchetta filet mignon. Cupim strip steak meatball, boudin filet mignon shoulder picanha pancetta tongue tenderloin shank prosciutto. Frankfurter pork chop swine ball tip pig bresaola burgdoggen chuck prosciutto salami leberkas sausage tail buffalo.
+	</div>
+</p>
+
+<p>
+	Turducken pastrami meatloaf pork corned beef ball tip. Salami spare ribs tongue corned beef beef ribs leberkas drumstick cupim pork belly t-bone pork loin. Short loin tenderloin andouille ribeye. Ribeye flank filet mignon, boudin sausage beef andouille rump doner alcatra shoulder jerky.
+</p>
+
+<p>
+	Doner tail sausage corned beef capicola shankle. Chuck frankfurter chicken, sausage tri-tip landjaeger swine pork belly tongue flank short ribs kielbasa meatball salami fatback. Flank picanha ham shankle bacon shank hamburger sirloin.
+</p>
+</div>
+</div>
+</body>
+</html>
